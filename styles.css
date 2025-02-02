@@ -1,0 +1,184 @@
+body {
+    text-align: center;
+    font-family: "Merriweather", serif;
+    margin: 0px;
+}
+.cloud-top {
+    position: absolute;
+    right: 300px;
+    top: 20px;
+    height: 150px;
+}
+.cloud-bottom {
+    position: absolute;
+    left: 250px;
+    bottom: 250px;
+    height: 150px;
+}
+#section-1 {
+    background-color: #CEE6F3;
+    position: relative;
+    padding-top: 100px;
+}
+.mountain {
+    width: 574px;
+    height: 333px;
+    padding-top: 105px;
+}
+h1 {
+    font-family: "Sacramento", cursive;
+    font-size: 100px;
+    color: #81c5eb;
+}
+.pro-span {
+    text-decoration: underline;
+}
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+   font-size: 50px;
+   color: #81c5eb;
+}
+.Hello {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    color: #81c5eb;
+    font-size: 50px;
+}
+#section-2 {
+    margin: 100px 0;
+}
+hr {
+    width: 4%;
+    border: dotted #CEE6F3 6px;
+    border-bottom: none;
+    border-top: 100px auto;
+    margin-top: 125px;
+}
+p{
+    width: 30%;
+    margin: auto;
+}
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+   font-size: 25px;
+   color: #81c5eb;
+}
+#section-3 {
+    display: block;
+  }
+  .parent {
+    display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2px;
+  }
+  .coding {
+    display: block;
+  }
+ 
+    .c-o-p {
+        width: 62%;
+            margin-left: 0px;
+    }
+    .typing {
+        display: block;
+    }
+    .basketball-hoop {
+        display: block;
+    }
+    .basketball {
+        display: block;
+    }
+    .b-a-p {
+        width: 260px;
+        margin-left: 20px;
+    }
+    .b-a-h {
+        width: 500px;
+        margin-left: 20px;
+
+    }
+    @media (max-width:1500px) {
+        .b-a-p {
+            width: 62%;
+            margin-left: 20px;
+        }
+        .b-a-h {
+            width: 50%;
+            margin-left: 20px;
+    
+        }
+    }
+    .basket-parent {
+        display: grid;
+      grid-template-columns: 0.5fr 1fr;
+      grid-template-rows: repeat(1, 1fr);
+      width: 50%;
+      margin: 100px auto 0 auto;
+      text-align: left;
+      row-gap: 2px;
+      }
+      .btn,.btn-1 {
+        background: lightblue;
+        background-image: -webkit-linear-gradient(top, #81c5eb, #CEE6F3);
+        background-image: -moz-linear-gradient(top, #81c5eb, #CEE6F3);
+        background-image: -ms-linear-gradient(top, #81c5eb, #CEE6F3);
+        background-image: -o-linear-gradient(top, #81c5eb, #CEE6F3);
+        background-image: linear-gradient(to bottom, #81c5eb, #CEE6F3);
+        -webkit-border-radius: 8;
+        -moz-border-radius: 8;
+        border-radius: 8px;
+        font-family: "Montserrat", sans-serif;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        margin-bottom: 100px;
+      }
+      .btn,.btn-1:hover {
+        background: #CEE6F3;
+        background-image: -webkit-linear-gradient(top, #81c5eb, lightblue);
+        background-image: -moz-linear-gradient(top, #81c5eb, lightblue);
+        background-image: -ms-linear-gradient(top, #81c5eb, lightblue);
+        background-image: -o-linear-gradient(top, #81c5eb, lightblue);
+        background-image: linear-gradient(to bottom, #81c5eb, lightblue);
+        text-decoration: none;
+      }
+      .footer-p {
+        margin-bottom: 50px;
+      }
+      #section-6 {
+        background-color: #81c5eb;
+        padding: 50px 0px 20px;
+        color: #81c5eb;
+        margin-top: 75px;
+      }
+      .a-footer {
+        color: #CEE6F3;
+        font-family: Montserrat, sans-serif;
+        margin: 10px 20px;
+        text-decoration: none;
+        cursor: auto;
+      }
+      .copyright {
+        color: #CEE6F3;
+        font-size: 0.75rem;
+        padding: 20px 0;
+      }
+      .a-footer:hover {
+        color: lightblue;
+      }
+      .profile {
+        border-radius: 10%;
+      }
+      .m-m-l-b {
+        padding-bottom: 50px;
+      }
+      .zoo-p {
+        padding-top: 30px;
+      }
